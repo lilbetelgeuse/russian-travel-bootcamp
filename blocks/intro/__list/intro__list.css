@@ -10,6 +10,6 @@
 }
 
 .intro__list li::after {
-    content: attr(v);
+    content: attr(value);
     font-weight: 100;
 }
