@@ -1,0 +1,31 @@
+.intro {
+   
+}
+
+@media screen and (min-width: 320px) {
+    .intro {
+    margin: 64px 16px 0 16px;
+    }       
+}  
+
+@media screen and (min-width: 768px) {
+    .intro {
+        margin: 88px 24px 0 24px;
+    }        
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        width: 690px;
+        height: 429px;
+        margin: 88px auto 0 48px;
+    }        
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        width: 690px;
+        height: 429px;
+        margin: 92px auto 0 148px;
+    }        
+}
