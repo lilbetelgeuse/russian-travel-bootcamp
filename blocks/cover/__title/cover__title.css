@@ -4,11 +4,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    }
-
-.cover__title p {
     margin: 0;
-}
+    }
 
 @media screen and (min-width: 320px) {
     .cover__title {
