@@ -4,7 +4,7 @@
     -moz-transition:opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     /* ...and now override with proper CSS property */
-    transition: opacity .5s ease-out;;
+    transition: opacity .5s ease-out;
     opacity: 1;
 }
 
