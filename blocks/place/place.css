@@ -19,8 +19,11 @@
         "image"
         "paragraph";
         row-gap: 16px;
-        margin: 0;
-            }       
+        margin: 50px 0 0 0;
+        }
+    .place:first-child {
+        margin-top: 64px;
+    }
 }  
 
 @media screen and (min-width: 768px) {
@@ -30,9 +33,11 @@
         grid-template-areas:
     "title website"
     "image paragraph";
-        margin: 88px 24px 0 24px;
-        
-    }        
+        margin: 73px 24px 0 24px;
+    }     
+    .place:first-child {
+        margin-top: 88px;
+    }   
 }
 
 @media screen and (min-width: 1024px) {
@@ -42,14 +47,16 @@
         grid-template-areas:
     "title website"
     "image paragraph";
-        margin: 92px 48px 0 48px;
-        
-    }        
+        margin: 80px 48px 0 48px;
+        }
+        .place:first-child {
+            margin-top: 92px;
+        }        
 }
 
 @media screen and (min-width: 1280px) {
     .place {
-        margin: 92px 148px 0 148px;
+        margin: 80px 148px 0 148px;
         
     }        
 }
