@@ -25,6 +25,7 @@
         font-size: 16px;
         line-height: 18px;
         flex-direction: row;
+        margin: 0;
 
     }
 }
