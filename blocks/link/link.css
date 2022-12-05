@@ -1,7 +1,7 @@
 .link {
     -o-transition: opacity .5s ease-out;
     -ms-transition: opacity .5s ease-out;
-    -moz-transition:opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     /* ...and now override with proper CSS property */
     transition: opacity .5s ease-out;
@@ -10,5 +10,5 @@
 
 .link:hover {
     opacity: 0.5;
-    
+
 }
