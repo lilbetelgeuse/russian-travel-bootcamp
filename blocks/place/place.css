@@ -24,7 +24,6 @@
 @media screen and (min-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
-        grid-template-rows: 75 1fr;
         grid-template-areas:
             "title website"
             "image paragraph";

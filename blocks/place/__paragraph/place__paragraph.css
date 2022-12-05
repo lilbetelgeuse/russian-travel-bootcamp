@@ -21,6 +21,10 @@
      .place__paragraph {
          margin: 0 0 25px 0;
      }
+
+     .place__paragraph:last-child {
+         margin: 0;
+     }
  }
 
  @media screen and (min-width: 1024px) {
