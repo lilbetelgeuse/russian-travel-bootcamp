@@ -1,7 +1,5 @@
  .place__paragraph {
     grid-area: paragraph;
-    grid-column: 2;
-    grid-row: 1;
     font-style: normal;
     font-weight: 400;
     text-align: left;
@@ -11,9 +9,18 @@
 @media screen and (min-width: 320px) {
     .place__paragraph {
     font-size: 16px;
-    margin:  0px 16px 0 16px;
+    margin:  0px 25px 0 16px;
     }       
 }  
+@media screen and (min-width: 768px) {
+    .place__paragraph {
+    margin: 0 0 25px 0;
+    }  
+    
+    .place__paragraph:last-child {
+        margin: 0;
+        } 
+} 
 
 @media screen and (min-width: 1024px) {
     .place__paragraph {

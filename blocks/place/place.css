@@ -1,12 +1,5 @@
 .place {
     display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-    "title website"
-    "image paragraph";
-    row-gap: 48px;
-    column-gap: 32px;
     }
 
 @media screen and (min-width: 320px) {
@@ -14,49 +7,54 @@
         grid-template-columns: auto;
         grid-template-rows: auto auto;
         grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "paragraph";
+            "title"
+            "website"
+            "image"
+            "paragraph";
         row-gap: 16px;
         margin: 50px 0 0 0;
-        }
+        column-gap: 32px;
+    }
+
     .place:first-child {
         margin-top: 64px;
     }
-}  
+}
 
 @media screen and (min-width: 768px) {
     .place {
-        grid-template-columns: 50% 1fr;
+        grid-template-columns: 340px 1fr;
         grid-template-rows: 75 1fr;
         grid-template-areas:
-    "title website"
-    "image paragraph";
+            "title website"
+            "image paragraph";
+            column-gap: 28px;
+            row-gap: 48px;
         margin: 73px 24px 0 24px;
-    }     
+    }
+
     .place:first-child {
         margin-top: 88px;
-    }   
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .place {
-        grid-template-columns: 50% 1fr;
-        grid-template-rows: auto 1fr;
-        grid-template-areas:
-    "title website"
-    "image paragraph";
+        grid-template-columns: 440px 1fr;
+        column-gap: 32px;
         margin: 80px 48px 0 48px;
-        }
-        .place:first-child {
-            margin-top: 92px;
-        }        
+    }
+
+    .place:first-child {
+        margin-top: 92px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .place {
         margin: 80px 148px 0 148px;
-        
-    }        
+        grid-template-columns: 460px 1fr;
+        column-gap: 40px;
+
+    }
 }

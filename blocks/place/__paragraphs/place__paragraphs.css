@@ -1,11 +1,3 @@
-/* .place__paragraphs {
-        grid-area: paragraph;
-        grid-column: 2;
-        grid-row: 1;
-    }*/
-    
- @media screen and (min-width: 320px) {
-        .place__paragraphs {
-          margin:  0 16px 0 16px;
-        }  
-    } 
+ .place__paragraphs {
+   margin: 0;
+ }

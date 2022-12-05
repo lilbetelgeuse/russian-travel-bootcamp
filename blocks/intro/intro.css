@@ -12,16 +12,13 @@
 
 @media screen and (min-width: 1024px) {
     .intro {
-        width: 690px;
-        height: 429px;
+        max-width: 690px;
         margin: 88px auto 0 48px;
     }        
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        width: 690px;
-        height: 429px;
         margin: 92px auto 0 148px;
     }        
 }
